@@ -23,7 +23,7 @@ class A implements IDemo{
 }
 class B extends A{
    protected void method4(){
-        
+       System.out.println("Overridden method 4 from sub class");
     }
 }
 
